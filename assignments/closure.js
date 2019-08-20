@@ -53,11 +53,11 @@ const counterFactory = () => {
 
   counter = {
     increment() {
-      return count++;
+      return ++count;
     },
 
     decrement() {
-      return count--;
+      return --count;
     },
   }
 
